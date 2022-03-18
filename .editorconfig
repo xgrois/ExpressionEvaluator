@@ -1,0 +1,7 @@
+# Rules in this file were initially inferred by Visual Studio IntelliCode from the D:\xunit\unit-testing-samples\Sol.UnitTestSamples codebase based on best match to current usage at 3/14/2022
+# You can modify the rules from these initially generated values to suit your own policies
+# You can learn more about editorconfig here: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
+[*.cs]
+
+# IDE0160: Convert to file-scoped namespace
+csharp_style_namespace_declarations = file_scoped:warning
