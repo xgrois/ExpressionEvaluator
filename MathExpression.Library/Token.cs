@@ -1,4 +1,4 @@
-﻿namespace MathExpressionLibrary;
+﻿namespace MathExpression.Library;
 public enum TokenType
 {
     Sum,

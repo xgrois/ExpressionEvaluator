@@ -1,5 +1,4 @@
 ﻿using MathExpression.Library.Interfaces;
-using MathExpressionLibrary;
 
 namespace MathExpression.Library;
 public class MathExpressionEvaluator : IMathExpressionEvaluator

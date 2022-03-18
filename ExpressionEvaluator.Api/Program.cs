@@ -6,7 +6,6 @@ using FluentValidation.Results;
 using MathExpression.Library;
 using MathExpression.Library.Exceptions;
 using MathExpression.Library.Interfaces;
-using MathExpressionLibrary;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,6 +1,6 @@
-﻿using MathExpression.Library.Exceptions;
+﻿using MathExpression.Library;
+using MathExpression.Library.Exceptions;
 using MathExpression.Library.Interfaces;
-using MathExpressionLibrary;
 
 namespace ExpressionEvaluator.Api.Services;
 

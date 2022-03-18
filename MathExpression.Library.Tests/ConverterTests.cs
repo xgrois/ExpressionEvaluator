@@ -1,5 +1,4 @@
 ﻿using FluentAssertions;
-using MathExpressionLibrary;
 using System.Collections;
 using System.Collections.Generic;
 using Xunit;

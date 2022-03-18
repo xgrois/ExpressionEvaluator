@@ -1,7 +1,7 @@
 ﻿using MathExpression.Library.Exceptions;
 using MathExpression.Library.Interfaces;
 
-namespace MathExpressionLibrary;
+namespace MathExpression.Library;
 
 public class MathExpressionTokenizer : IMathExpressionTokenizer
 {

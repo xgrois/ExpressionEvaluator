@@ -1,10 +1,7 @@
-﻿using MathExpressionLibrary;
-
-namespace MathExpression.Library.Helpers;
+﻿namespace MathExpression.Library.Helpers;
 
 public static class Helpers
 {
-
     public static bool IsOperator(Token token)
     {
         return token.TokenType == TokenType.Sum

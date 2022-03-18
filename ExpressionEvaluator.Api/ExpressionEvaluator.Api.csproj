@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MathExpressionLibrary\MathExpression.Library.csproj" />
+    <ProjectReference Include="..\MathExpression.Library\MathExpression.Library.csproj" />
   </ItemGroup>
 
 </Project>

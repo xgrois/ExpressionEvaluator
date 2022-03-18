@@ -5,9 +5,9 @@ VisualStudioVersion = 17.2.32314.265
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionEvaluator.Api", "ExpressionEvaluator.Api\ExpressionEvaluator.Api.csproj", "{62B0C671-BAD0-46A3-A4E0-8957C98A1E24}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathExpression.Library.Tests.Unit", "TestProject1\MathExpression.Library.Tests.Unit.csproj", "{BA32368F-A0ED-4207-8A18-FDFE5A8C1303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathExpression.Library.Tests.Unit", "MathExpression.Library.Tests\MathExpression.Library.Tests.Unit.csproj", "{BA32368F-A0ED-4207-8A18-FDFE5A8C1303}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathExpression.Library", "MathExpressionLibrary\MathExpression.Library.csproj", "{2A23B199-12DB-4F4A-B36C-7A8328D9CFEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathExpression.Library", "MathExpression.Library\MathExpression.Library.csproj", "{2A23B199-12DB-4F4A-B36C-7A8328D9CFEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
