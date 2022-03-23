@@ -7,11 +7,15 @@ public class MathVariablesStorageService : IMathVariablesStorageService
 {
     private readonly ConcurrentDictionary<string, int> _variables = new();
 
-    public ConcurrentDictionary<string, int> Variables => _variables;
-
     public Task CreateAsync(MathVariable mathVariable)
     {
         _variables[mathVariable.Name] = mathVariable.Value;
+        return Task.CompletedTask;
+    }
+
+    public Task DeleteAllAsync()
+    {
+        _variables.Clear();
         return Task.CompletedTask;
     }
 

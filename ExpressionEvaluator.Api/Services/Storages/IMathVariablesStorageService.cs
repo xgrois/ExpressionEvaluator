@@ -9,5 +9,5 @@ public interface IMathVariablesStorageService
     public Task CreateAsync(MathVariable mathVariable);
     public Task<bool> UpdateAsync(MathVariable mathVariable);
     public Task<bool> DeleteAsync(string mathVariableName);
-
+    public Task DeleteAllAsync();
 }

@@ -151,6 +151,13 @@ app.MapGet("/variables",
     })
     .Produces<IEnumerable<MathVariableGetResponse>>(200);
 
+app.MapDelete("/variables",
+    async (IMathVariablesStorageService mathVariablesStorageService) =>
+    {
+        await mathVariablesStorageService.DeleteAllAsync();
+        return Results.Ok();
+    });
+
 app.Run();
 
 

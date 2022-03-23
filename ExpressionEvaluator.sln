@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathExpression.Library.Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathExpression.Library", "MathExpression.Library\MathExpression.Library.csproj", "{2A23B199-12DB-4F4A-B36C-7A8328D9CFEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionEvaluator.Api.Tests.Integration", "ExpressionEvaluator.Api.Tests.Integration\ExpressionEvaluator.Api.Tests.Integration.csproj", "{D370FF51-A235-4F83-A946-B451E923861A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2A23B199-12DB-4F4A-B36C-7A8328D9CFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A23B199-12DB-4F4A-B36C-7A8328D9CFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A23B199-12DB-4F4A-B36C-7A8328D9CFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D370FF51-A235-4F83-A946-B451E923861A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D370FF51-A235-4F83-A946-B451E923861A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D370FF51-A235-4F83-A946-B451E923861A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D370FF51-A235-4F83-A946-B451E923861A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
